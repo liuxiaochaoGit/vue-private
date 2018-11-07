@@ -1,0 +1,33 @@
+/* 标签样式初始化 */
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial, Helvetica, 'STHeiti', 'Microsoft YaHei', 'sans-serif';
+    font-size: 1rem;
+}
+
+form, ul, li, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
