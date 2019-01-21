@@ -1,0 +1,56 @@
+/* 标签样式初始化 */
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0);
+    font-size: 0;
+    font-family: Arial, Helvetica, 'STHeiti', 'Microsoft YaHei', 'sans-serif'
+}
+
+form, ul, li, p, h1, h2, h3, h4, h5, h6, input {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+body {
+    margin: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #a9a9a9;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #a9a9a9;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #a9a9a9;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #a9a9a9;
+}

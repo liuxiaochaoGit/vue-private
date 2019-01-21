@@ -1,43 +1,19 @@
 <template>
     <div id="app">
-        <router-link v-for="nav in navList" :key="nav.path" :to="nav.path">{{nav.name}}</router-link>
-        <router-view></router-view>
+        <router-view/>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'App',
-        data() {
-            return {
-                activeName:'login',
-                navList:[
-                    {
-                        name:'login',
-                        path:'/'
-                    },
-                    {
-                        name:'about',
-                        path:'/about'
-                    },
-                    {
-                        name:'main',
-                        path:'/main'
-                    }
-                ]
-            }
-        },
-        methods:{
-            handleClick(tab, event) {
-                console.log(tab, event);
-            }
-        }
-    }
+        name: 'App'
+    };
 </script>
 
-<style lang="scss">
+<style>
     body {
-        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
     }
 
     #app {
@@ -46,11 +22,10 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin: 20px;
-        font-size: 1rem;
-        a{
-            margin: 20px;
-            text-decoration: none;
-        }
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 </style>

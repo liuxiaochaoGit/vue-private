@@ -1,11 +1,13 @@
 <template>
-    <h1>This is main page!</h1>
+    <div>
+
+    </div>
 </template>
 
 <script>
     export default {
-        name: "v-main"
-    }
+        name: 'lc-input'
+    };
 </script>
 
 <style scoped lang="scss">
